@@ -1,0 +1,41 @@
+# ── Dependencies ──────────────────────────
+node_modules/
+.npm
+
+# ── Environment variables (SECRETS) ───────
+.env
+.env.local
+.env.development
+.env.production
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# ── Build outputs ─────────────────────────
+dist/
+build/
+frontend/dist/
+
+# ── Logs ──────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+logs/
+
+# ── OS files ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor files ──────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Temp / test files ─────────────────────
+check.js
+*.tmp
+
+# ── MongoDB local data ────────────────────
+data/
